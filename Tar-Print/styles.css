@@ -1,0 +1,88 @@
+
+/*#c3e3b8 #8dab76 #cbffc9 #81b214 #535204 #d1eaa3 #c9ffc7 #e1ffd9 #e5ffd9 #e2ffd9 #ddffd9 #b3e69a*/
+
+#title{
+  background-color: #e1ffd9;
+  padding: 2% 10% 4%;
+  text-align:left;
+}
+
+.nav-item{
+  padding: 0 30px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+.header{
+  padding-top: 190px;
+  font-size: 75px;
+  font-weight: bolder;
+}
+
+.subheader{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+  line-height: 43px;
+}
+
+h1,h2{
+   font-family: 'Merriweather Sans', sans-serif;
+ }
+
+ h3,p,a{
+   font-family: 'Sarabun', sans-serif;
+ }
+
+ .nav-link{
+   font-size: 1.2rem;
+   text-align: center;
+
+}
+
+.eg-photo{
+  display: block;
+  padding-left: auto;
+  margin-left: auto;
+  padding-right: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .header{
+    padding-top: 30px;
+  }
+  .eg-photo{
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px){
+
+  .eg-photo{
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 472px){
+  #title{
+    padding: 2% 10% 4%;
+  }
+  .eg-photo{
+    width: 250px;
+  }
+
+}
+
+.nav-help{
+
+}
