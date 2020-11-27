@@ -7,8 +7,8 @@
   text-align:left;
 }
 
-.nav-item{
-  padding: 0 30px;
+.nav-help{
+  padding: 0 90px;
 }
 
 .logo{
@@ -129,9 +129,34 @@ h1,h2{
 
 }
 
+/*PURPOSE*/
+#purpose{
+  font-size: 25px;
+  text-align: center;
+  padding: 8% 12% 8%;
+}
+
+.fa-tint{
+  color: #2b99c4;
+}
+.fa-tint:hover{
+  color: #57d0ff;
+}
+
+.fa-robot{
+  color: #6e6e6e;
+}
+.fa-robot:hover{
+  color: #b8b8b8;
+}
+
+.fa-user-graduate:hover{
+  color: #826800;
+}
 /*three-steps*/
+/*#e89761 #c78b32*/
 #three-steps{
-  background-color: #97996e;
+  background-color: #e89761;
   color: white;
   padding: 6% 12% 8%;
 }
@@ -148,5 +173,9 @@ h1,h2{
 }
 
 .three-step-divs{
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+}
+
+.take-snap-right{
+  text-align: right;
 }
