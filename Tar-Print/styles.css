@@ -2,7 +2,7 @@
 /*#c3e3b8 #8dab76 #cbffc9 #81b214 #535204 #d1eaa3 #c9ffc7 #e1ffd9 #e5ffd9 #e2ffd9 #ddffd9 #b3e69a*/
 
 #title{
-  background-color: #e1ffd9;
+  background-color: #d8ffcf;
   padding: 2% 10% 4%;
   text-align:left;
 }
@@ -12,17 +12,21 @@
 }
 
 .logo{
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 
-.header{
+.logo:hover{
+  filter: brightness(95%);
+}
+
+.title{
   padding-top: 190px;
   font-size: 75px;
   font-weight: 800;
 }
 
-.subheader{
+.subtitle{
   padding-top: 15px;
   padding-left: 50px;
   padding-right: 50px;
@@ -39,9 +43,17 @@ h1,h2{
  }
 
  .nav-link{
-   font-size: 1.2rem;
+   font-size: 23px;
    text-align: center;
 
+}
+
+.navbar-toggler{
+  width: 80px;
+  height: 70px;
+  border: none;
+  background-color: #bae6ba;
+  border-radius: 16px;
 }
 
 .eg-photo{
@@ -55,23 +67,38 @@ h1,h2{
 
 .download-button{
   margin: 5% 3% 5% 0;
+  width: 200px;
+  height: 60px;
+  font-size: 26px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 993px) {
+  .take-snap-left{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 992px) {
 
   #title{
-    padding: 2% 5% 4%;
+    padding: 2% 5% 12%;
   }
+
+  #three-steps{
+    padding: 6% 5% 8%;
+  }
+
   .container-fluid{
-    padding-top: 50px;
+    padding-top: 40px;
   }
-  .header{
+  .title{
     padding-top: 30px;
     font-size: 85px;
   }
-  .subheader{
+  .subtitle{
     font-size: 40px;
-    line-height: 48px;
+    line-height: 53px;
   }
   .nav-link{
     font-size: 30px;
@@ -80,6 +107,11 @@ h1,h2{
   .eg-photo{
     padding-left: 0;
   }
+
+  .take-snap-right{
+    display: none;
+  }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -97,6 +129,24 @@ h1,h2{
 
 }
 
-.nav-help{
+/*three-steps*/
+#three-steps{
+  background-color: #97996e;
+  color: white;
+  padding: 6% 12% 8%;
+}
 
+.header{
+  font-weight: 700;
+  padding-top: 30px;
+  font-size: 55px;
+  padding-bottom: 10%;
+}
+
+.three-step-images{
+  width: 240px;
+}
+
+.three-step-divs{
+  margin-bottom: 50px;
 }
