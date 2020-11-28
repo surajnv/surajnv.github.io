@@ -7,17 +7,13 @@
   text-align:left;
 }
 
-.nav-help{
-  padding: 0 90px;
-}
-
 .logo{
   width: 90px;
   height: 90px;
 }
 
 .logo:hover{
-  filter: brightness(95%);
+  filter: brightness(92%);
 }
 
 .title{
@@ -52,7 +48,7 @@ h1,h2{
   width: 80px;
   height: 70px;
   border: none;
-  background-color: #bae6ba;
+  background-color: #c2e8a2;
   border-radius: 16px;
 }
 
@@ -71,86 +67,6 @@ h1,h2{
   height: 60px;
   font-size: 26px;
   border-radius: 10px;
-}
-
-@media only screen and (min-width: 993px) {
-  .take-snap-left{
-    display: none;
-  }
-  .lower-div{
-    padding-left: 30px;
-  }
-  .three-step-images{
-    display: block;
-    padding-left: auto;
-    margin-left: auto;
-    padding-right: auto;
-    margin-right: auto;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-
-  #title{
-    padding: 2% 5% 12%;
-  }
-
-  #three-steps{
-    padding: 6% 5% 8%;
-  }
-
-  .container-fluid{
-    padding-top: 40px;
-  }
-  .title{
-    padding-top: 30px;
-    font-size: 85px;
-  }
-  .subtitle{
-    font-size: 45px;
-    line-height: 53px;
-  }
-  .nav-link{
-    font-size: 30px;
-  }
-
-  .eg-photo{
-    padding-left: 0;
-  }
-
-  .take-snap-right{
-    display: none;
-  }
-
-  .claim{
-    font-size: 35px;
-  }
-  .explain{
-    font-size: 30px;
-  }
-
-}
-
-@media only screen and (max-width: 768px){
-  .eg-photo{
-    width: 300px;
-  }
-  .three-step-images{
-    display: block;
-    padding-left: auto;
-    margin-left: auto;
-    padding-right: auto;
-    margin-right: auto;
-  }
-
-}
-
-@media only screen and (max-width: 472px){
-
-  .eg-photo{
-    width: 250px;
-  }
-
 }
 
 /*PURPOSE*/
@@ -193,11 +109,10 @@ h1,h2{
   padding-bottom: 30px;
 }
 
-
 /*three-steps*/
-/*#e89761 #c78b32 #82942e #707d32 #66751d*/
+/*#e89761 #c78b32 #82942e #707d32 #66751d #92b53f #546116 #72824d #ff9a8c #ff725e*/
 #three-steps{
-  background-color: #546116;
+  background-color: #ff725e;
   color: white;
   padding: 6% 12% 8%;
 }
@@ -219,4 +134,104 @@ h1,h2{
 
 .explain{
   font-size: 20px;
+}
+
+@media only screen and (min-width: 993px) {
+  .take-snap-left{
+    display: none;
+  }
+  .lower-div{
+    padding-left: 30px;
+  }
+  .three-step-images{
+    display: block;
+    padding-left: auto;
+    margin-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+  }
+  .home-link{
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  #title{
+    padding: 2% 5% 12%;
+  }
+
+  .home-link{
+    padding-bottom: 20px;
+  }
+
+  #three-steps{
+    padding: 6% 10% 8%;
+  }
+
+  .container-fluid{
+    padding-top: 40px;
+  }
+  .title{
+    padding-top: 30px;
+    font-size: 85px;
+  }
+  .subtitle{
+    font-size: 45px;
+    line-height: 53px;
+  }
+  .nav-link{
+    font-size: 30px;
+  }
+
+  .eg-photo{
+    padding-left: 0;
+  }
+
+  .take-snap-right{
+    display: none;
+  }
+
+  .claim{
+    font-size: 38px;
+  }
+
+  .explain{
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  .ellab{
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  .three-step-images{
+    float: left;
+    margin-right: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+  .eg-photo{
+    width: 300px;
+  }
+  .three-step-images{
+    display: block;
+    padding-left: auto;
+    margin-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+
+  }
+
+}
+
+@media only screen and (max-width: 472px){
+
+  .eg-photo{
+    width: 250px;
+  }
+
 }
