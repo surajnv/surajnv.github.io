@@ -1,8 +1,8 @@
 
-/*#c3e3b8 #8dab76 #cbffc9 #81b214 #535204 #d1eaa3 #c9ffc7 #e1ffd9 #e5ffd9 #e2ffd9 #ddffd9 #b3e69a*/
+/*#c3e3b8 #8dab76 #cbffc9 #81b214 #535204 #d1eaa3 #c9ffc7 #e1ffd9 #e5ffd9 #e2ffd9 #ddffd9 #b3e69a #c9f7a1*/
 
 #title{
-  background-color: #d8ffcf;
+  background-color: #d7fcb6;
   padding: 2% 10% 4%;
   text-align:left;
 }
@@ -77,6 +77,16 @@ h1,h2{
   .take-snap-left{
     display: none;
   }
+  .lower-div{
+    padding-left: 30px;
+  }
+  .three-step-images{
+    display: block;
+    padding-left: auto;
+    margin-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -97,7 +107,7 @@ h1,h2{
     font-size: 85px;
   }
   .subtitle{
-    font-size: 40px;
+    font-size: 45px;
     line-height: 53px;
   }
   .nav-link{
@@ -112,13 +122,27 @@ h1,h2{
     display: none;
   }
 
+  .claim{
+    font-size: 35px;
+  }
+  .explain{
+    font-size: 30px;
+  }
+
 }
 
 @media only screen and (max-width: 768px){
-
   .eg-photo{
     width: 300px;
   }
+  .three-step-images{
+    display: block;
+    padding-left: auto;
+    margin-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+  }
+
 }
 
 @media only screen and (max-width: 472px){
@@ -153,10 +177,27 @@ h1,h2{
 .fa-user-graduate:hover{
   color: #826800;
 }
+
+.purp-icon{
+  padding-bottom: 25px;
+}
+
+.claim{
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.ellab{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+
 /*three-steps*/
-/*#e89761 #c78b32*/
+/*#e89761 #c78b32 #82942e #707d32 #66751d*/
 #three-steps{
-  background-color: #e89761;
+  background-color: #546116;
   color: white;
   padding: 6% 12% 8%;
 }
@@ -165,7 +206,7 @@ h1,h2{
   font-weight: 700;
   padding-top: 30px;
   font-size: 55px;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .three-step-images{
@@ -176,6 +217,6 @@ h1,h2{
   margin-bottom: 70px;
 }
 
-.take-snap-right{
-  text-align: right;
+.explain{
+  font-size: 20px;
 }

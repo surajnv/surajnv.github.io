@@ -29,13 +29,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item nav-help">
-                  <a class="nav-link" href="help.html">Help</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="privacy.html">Privacy</a>
                 </li>
-
               </ul>
             </div>
           </nav>
@@ -58,57 +57,100 @@
     <section id="purpose">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <i class="fas fa-tint fa-3x"></i>
-            <h3>Easy to use.</h3>
-            <p>So easy to use, even your dog could do it.</p>
+          <div class="col-lg-4">
+            <i class="fas fa-tint fa-3x purp-icon"></i>
+            <h3 class="claim">Environmental Impact</h3>
+            <p class="ellab">Impervious surfaces like roads and rooftops do not allow water to pass through them. This leads to a variety of harmful impacts on local streams and wildlife.</p>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <i class="fas fa-robot fa-3x"></i>
-            <h3>Elite Clientele</h3>
-            <p>We have all the dogs, the greatest dogs.</p>
+          <div class="col-lg-4 lower-div">
+            <i class="fas fa-robot fa-3x purp-icon"></i>
+            <h3 class="claim">Machine Learning</h3>
+            <p class="ellab">Tar Print uses a machine learning model to quantify the amount of pervious or impervious surfaces in a region – completely automating the process.</p>
           </div>
-          <div class="col-lg-4 col-md-12">
-            <i class="fas fa-user-graduate fa-3x"></i>
-            <h3>Guaranteed to work.</h3>
-            <p>Find the love of your dog's life or your money back.</p>
+          <div class="col-lg-4 lower-div">
+            <i class="fas fa-user-graduate fa-3x purp-icon"></i>
+            <h3 class="claim">Easy and Accessible</h3>
+            <p class="ellab">More studnet researches will be able factor impervious and pervious surface percentages when measuring stream health due to Tar Print's sreamlined process of calculating surface types.</p>
           </div>
         </div>
       </div>
-      <p>Tar Print is a mobile app that uses a machine learning model to quantify the amount of pervious or impervious surfaces in a region. Impervious surfaces like roads and rooftops do not allow water to pass through them. This leads to a variety of harmful impacts on local streams and wildlife.</p>
-      <p>Streamlining the process of calculating surface types allows many more people, student researchers in particular, to monitor the effects of urbanization on the biological and chemicl factors of near by streams.</p>
     </section>
 
     <section id="three-steps">
       <div class="row three-step-divs loca-cent-div">
         <div class="col-lg-8">
           <h1 class="header">1. Specify a Location</h1>
+          <div class="d-md-none d-lg-block">
+            <p class="explain">Tar Print offers two methods of location specification – using location services or dropping a pin. If your location services are enabled for Tar Print, you will automatically be zoomed into your current locaction when you use the app. If you are at a stream testing location while using Tar Print, this is an extremely fast way of getting the data you need. Tar Print also generates the current coordinates for your documentation.</p>
+            <p class="explain">You can alo use pins to mark a location on the map. Either type in the coordinate of your desired location, or click the pin button to drop a pin on the center of your screen.</p>
+            <p class="explain">After you have a location, click on the gear button to change settings. Here you will be able to change the side length of your snapshot capture in miles, and you can specify if you would like to analyze the surfaces around either your current location or your pin.</p>
+          </div>
         </div>
         <div class="col-lg-4">
-          <img class="three-step-images" src="Images/locationcenter.png" alt="standard location center">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="three-step-images" src="Images/locationcenter.png" alt="standard location center">
+            </div>
+            <div class="col-md-7 d-none d-md-block d-lg-none">
+              <p class="explain">Tar Print offers two methods of location specification – using location services or dropping a pin. If your location services are enabled for Tar Print, you will automatically be zoomed into your current locaction when you use the app. If you are at a stream testing location while using Tar Print, this is an extremely fast way of getting the data you need. Tar Print also generates the current coordinates for your documentation.</p>
+              <p class="explain">You can alo use pins to mark a location on the map. Either type in the coordinate of your desired location, or click the pin button to drop a pin on the center of your screen.</p>
+              <p class="explain">After you have a location, click on the gear button to change settings. Here you will be able to change the side length of your snapshot capture in miles, and you can specify if you would like to analyze the surfaces around either your current location or your pin.</p>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="row three-step-divs proc-div">
         <div class="col-lg-8 take-snap-left">
           <h1 class="header">2. Take a Snapshot</h1>
+          <div class="d-md-none d-lg-block">
+            <p class="explain">When you are ready to take your snapshot, all you have to do is click the camera button. This will capture the area around the specified location with the specified radius. Once it does that, the magic begins!</p>
+            <p class="explain">After the snapshot is taken, the image is analyzed pixel by pixel. Each pixel is run through a machine learning model which was trained by over 2,000 data points. Once each pixel is passed through, it is classified as pervious or impervious. To maximize results, Tar Print compares pixels against Apple Maps water surface data so it only classifies terrestrial surfaces.</p>
+            <p class="explain">Once each pixel is evaluated, all classified pixels are summed to find out the percentages of water, pervious, or impervious surfaces.</p>
+          </div>
         </div>
         <div class="col-lg-4">
-          <img class="three-step-images" src="Images/processing.png" alt="processing">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="three-step-images" src="Images/processing.png" alt="processing">
+            </div>
+            <div class="col-md-7 d-none d-md-block d-lg-none">
+              <p class="explain">When you are ready to take your snapshot, all you have to do is click the camera button. This will capture the area around the specified location with the specified radius. Once it does that, the magic begins!</p>
+              <p class="explain">After the snapshot is taken, the image is analyzed pixel by pixel. Each pixel is run through a machine learning model which was trained by over 2,000 data points. Once each pixel is passed through, it is classified as pervious or impervious. To maximize results, Tar Print compares pixels against Apple Maps water surface data so it only classifies terrestrial surfaces.</p>
+              <p class="explain">Once each pixel is evaluated, all classified pixels are summed to find out the percentages of water, pervious, or impervious surfaces.</p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-8 take-snap-right">
           <h1 class="header">2. Take a Snapshot</h1>
+          <div class="d-md-none d-lg-block">
+            <p class="explain">When you are ready to take your snapshot, all you have to do is click the camera button. This will capture the area around the specified location with the specified radius. Once it does that, the magic begins!</p>
+            <p class="explain">After the snapshot is taken, the image is analyzed pixel by pixel. Each pixel is run through a machine learning model which was trained by over 2,000 data points. Once each pixel is passed through, it is classified as pervious or impervious. To maximize results, Tar Print compares pixels against Apple Maps water surface data so it only classifies terrestrial surfaces.</p>
+            <p class="explain">Once each pixel is evaluated, all classified pixels are summed to find out the percentages of water, pervious, or impervious surfaces.</p>
+          </div>
         </div>
       </div>
 
       <div class="row three-step-divs perm-info-div">
+
         <div class="col-lg-8">
           <h1 class="header">3. Use the Data</h1>
+          <div class="d-md-none d-lg-block">
+            <p class="explain">Once the processing window closes, a satellite image and a permeability image become visible. The satellite image shows an image centered around the specified location. The permeability image is classified pixel by pixel with a color that represents water, pervious, or impervious surfaces. The percentages of each type and key that pertains to them is also shown below.</p>
+            <p class="explain">Users are also able to save both the satellite image and the permeability image to their photos library on their phone.</p>
+          </div>
         </div>
         <div class="col-lg-4">
-          <img class="three-step-images" src="Images/permeability.png" alt="permeability information">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="three-step-images" src="Images/permeability.png" alt="permeability information">
+            </div>
+            <div class="col-md-7 d-none d-md-block d-lg-none">
+              <p class="explain">Once the processing window closes, a satellite image and a permeability image become visible. The satellite image shows an image centered around the specified location. The permeability image is classified pixel by pixel with a color that represents water, pervious, or impervious surfaces. The percentages of each type and key that pertains to them is also shown below.</p>
+              <p class="explain">Users are also able to save both the satellite image and the permeability image to their photos library on their phone.</p>
+            </div>
+          </div>
         </div>
-      </div>
 
     </section>
 
