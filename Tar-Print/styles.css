@@ -136,6 +136,36 @@ h1,h2{
   font-size: 20px;
 }
 
+#support{
+  padding: 6% 12% 6%;
+  background-color: #fff4ba;
+}
+
+.support-div{
+  padding: 2%;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.support-msg{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 45px;
+}
+.email{
+  display: inline;
+  color: #e3d89f;
+}
+
+#footer{
+  padding: 3% 12% 2%;
+  background-color: white;
+  text-align: center;
+}
+
+
 @media only screen and (min-width: 993px) {
   .take-snap-left{
     display: none;
