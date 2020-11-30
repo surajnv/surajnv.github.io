@@ -181,6 +181,7 @@ h1,h2{
 }
 
 .privacy-policy-text{
+  padding-top: 20px;
   font-size: 20px;
 }
 
@@ -264,7 +265,8 @@ h1,h2{
   }
 
   .privacy-policy-text{
-    font-size: 30px;
+    padding-top: 40px;
+    font-size: 34px;
   }
 }
 
